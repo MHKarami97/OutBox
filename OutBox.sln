@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutBoxPublisher", "OutBoxPublisher\OutBoxPublisher.csproj", "{5BD4A316-BBD5-4EF1-8E55-D2EFA0E12763}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9D216299-8A39-4D83-AC48-CE0085573CD7}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		BannedSymbols.txt = BannedSymbols.txt
+		Directory.Build.props = Directory.Build.props
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutBoxConsumer", "OutBoxConsumer\OutBoxConsumer.csproj", "{263979E9-27DC-47C1-80A4-510B4B85A6F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{E2846309-FC6D-4605-BA2F-FAFD0795A101}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BD4A316-BBD5-4EF1-8E55-D2EFA0E12763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD4A316-BBD5-4EF1-8E55-D2EFA0E12763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD4A316-BBD5-4EF1-8E55-D2EFA0E12763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD4A316-BBD5-4EF1-8E55-D2EFA0E12763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{263979E9-27DC-47C1-80A4-510B4B85A6F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{263979E9-27DC-47C1-80A4-510B4B85A6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{263979E9-27DC-47C1-80A4-510B4B85A6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{263979E9-27DC-47C1-80A4-510B4B85A6F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2846309-FC6D-4605-BA2F-FAFD0795A101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2846309-FC6D-4605-BA2F-FAFD0795A101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2846309-FC6D-4605-BA2F-FAFD0795A101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2846309-FC6D-4605-BA2F-FAFD0795A101}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
