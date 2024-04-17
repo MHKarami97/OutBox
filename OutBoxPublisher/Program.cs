@@ -1,4 +1,5 @@
 using System.Globalization;
+using OutBoxPublisher;
 using OutBoxPublisher.Configuration;
 using Serilog;
 using Utility.Configuration;
@@ -27,6 +28,8 @@ try
     services.ConfigureTracing(configuration);
     services.ConfigureMetric(configuration);
 
+    services.Registration(configuration);
+
     services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
     services.ConfigureHostedService(configuration);
@@ -46,6 +49,6 @@ catch (Exception e)
 finally
 {
     Log.Information("Stopped...");
-    
+
     await Log.CloseAndFlushAsync();
 }

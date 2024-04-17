@@ -18,6 +18,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutBoxConsumer", "OutBoxCon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{E2846309-FC6D-4605-BA2F-FAFD0795A101}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Agents", "Agents", "{55988280-B29C-48CC-B46E-F2A61F729CDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher", "Publisher\Publisher.csproj", "{9587456E-CE4C-42E4-B140-987D03A25FFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{E2846309-FC6D-4605-BA2F-FAFD0795A101}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2846309-FC6D-4605-BA2F-FAFD0795A101}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2846309-FC6D-4605-BA2F-FAFD0795A101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9587456E-CE4C-42E4-B140-987D03A25FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9587456E-CE4C-42E4-B140-987D03A25FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9587456E-CE4C-42E4-B140-987D03A25FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9587456E-CE4C-42E4-B140-987D03A25FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{263979E9-27DC-47C1-80A4-510B4B85A6F6} = {55988280-B29C-48CC-B46E-F2A61F729CDB}
+		{5BD4A316-BBD5-4EF1-8E55-D2EFA0E12763} = {55988280-B29C-48CC-B46E-F2A61F729CDB}
 	EndGlobalSection
 EndGlobal
